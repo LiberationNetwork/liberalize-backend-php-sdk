@@ -1,0 +1,19 @@
+{
+    "name": "liberalize/liberalize-backend-php-sdk",
+    "description": "This is a php sdk for liberalize payments backend apis",
+    "type": "library",
+    "homepage": "https://github/com/LiberalizeNetwork/liberalize-backend-php-sdk",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.2"
+    },
+    "authors": [{
+        "name": "Liberalize <liberalize> Support",
+        "email": "support@liberalize.io"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Liberalize\\": "src/"
+        }
+    }
+}
